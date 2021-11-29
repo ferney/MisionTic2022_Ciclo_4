@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image_info"
+    tools:context=".HomeInfo">
+
+    <Button
+        android:id="@+id/txtRegistrarse"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="64dp"
+        android:layout_weight="1"
+        android:background="@drawable/boton_registrarse"
+        android:text="@string/registrarse"
+        android:onClick="redirectionRegistro"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/txtIniciarSesion"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/txtIniciarSesion"
+        android:layout_width="149dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/boton_sesion"
+        android:onClick="redirectionToLogin"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txtRegistrarse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtRegistrarse"
+        tools:ignore="TextContrastCheck" />
+
+</android.support.constraint.ConstraintLayout>
