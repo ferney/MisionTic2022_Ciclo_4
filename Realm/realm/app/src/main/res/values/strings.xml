@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidRealmTutorial</string>
+    <array name="genero">
+        <item>MASCULINO</item>
+        <item>FEMENINO</item>
+        <item>OTRO</item>
+    </array>
+</resources>
