@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:background="@color/white"
+    android:backgroundTint="@color/white">
+
+    <TextView
+        android:id="@+id/lblNombres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nombres"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nombres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/lblNombres"
+        android:paddingLeft="5dp"
+        android:text="xxxxx"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/lblTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblNombres"
+        android:text="telefono"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/telefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblNombres"
+        android:layout_toRightOf="@id/lblTelefono"
+        android:paddingLeft="5dp"
+        android:text="xxxxx"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/lblfecharegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblTelefono"
+        android:paddingLeft="5dp"
+        android:text="fecha"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/fecharegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblTelefono"
+        android:layout_toRightOf="@id/lblfecharegistro"
+        android:paddingLeft="5dp"
+        android:text="xxxxxxx"
+        android:textSize="20dp" />
+</RelativeLayout>

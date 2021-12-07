@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/menu_agregar"
+    android:icon="@drawable/agregar"
+    android:title="agregar"
+
+    app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_guardar"
+        android:icon="@drawable/guardar"
+        android:title="guardar"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_eliminar"
+        android:icon="@drawable/eliminar"
+        android:title="eliminar"
+        app:showAsAction="always"/>
+</menu>
+
+    <!-- se usa showAsAction
+    para que aparesca arriba y no en los 3 puntitos -->
