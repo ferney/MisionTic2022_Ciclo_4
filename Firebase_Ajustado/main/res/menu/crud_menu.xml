@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/menu_agregar"
+    android:title="agregar"
+    android:icon="@drawable/agregar"
+    app:showAsAction="always"
+    android:visible="true"
+    />
+    <item
+        android:id="@+id/menu_guardar"
+        android:title="guardar"
+        android:icon="@drawable/guardar"
+        app:showAsAction="always"
+        android:visible="true"
+        />
+    <item
+        android:id="@+id/menu_eliminar"
+        android:title="eliminar"
+        android:icon="@drawable/eliminar"
+        app:showAsAction="always"
+        android:visible="true"
+        />
+</menu>
